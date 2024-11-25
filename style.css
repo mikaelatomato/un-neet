@@ -1,0 +1,42 @@
+:root {
+    --background-blue: rgb(23, 32, 42);
+}
+
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-blue);
+    color: rgb(247, 249, 249);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    gap: 20px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+a,
+a:active,
+time {
+    color: rgb(29, 155, 240);
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
