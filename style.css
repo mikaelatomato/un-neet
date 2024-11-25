@@ -36,6 +36,30 @@ time {
     color: rgb(29, 155, 240);
 }
 
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 500px;
+    height: auto;
+}
+
+.intro {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.intro h1 {
+    font-size: 25px;
+}
+
+.intro p {
+    font-size: 15px;
+    color: rgb(200, 200, 200);
+}
+
 nav {
     display: flex;
     gap: 30px;
