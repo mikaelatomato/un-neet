@@ -51,6 +51,7 @@ time {
 .banner img {
     width: 500px;
     height: auto;
+    border: 2px solid rgb(29, 155, 240);
 }
 
 .intro {
