@@ -1,5 +1,9 @@
 :root {
-    --background-blue: rgb(23, 32, 42);
+    --background-blue: #F5FAFF;
+    --darker-blue: rgb(226, 242, 255);
+    --title-blue: #b3d9ff;
+    --heading-color: #16466C;
+    --anchor-color: #204A87;
 }
 
 * {
@@ -10,8 +14,8 @@
 }
 
 body {
-    background-color: rgb(240, 240, 240);
-    color: rgb(15, 20, 25);
+    background: white url("./assets/bg.png") repeat;
+    color: #202020;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,10 +41,11 @@ header h1 {
 }
 
 a,
-a:active,
+a:visited,
 time {
-    color: rgb(29, 155, 240);
+    color: var(--anchor-color);
 }
+
 
 .banner {
     position: relative;
@@ -90,13 +95,11 @@ main {
 article {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 article .head {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 article p {
@@ -134,4 +137,26 @@ article p {
     width: 100%;
     height: 10px;
     background-color: rgb(29, 155, 240);
+}
+
+article .content {
+    background-color: var(--background-blue);
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+}
+
+article .head {
+    background-color: var(--title-blue);
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+    gap: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--heading-color);
 }

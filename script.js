@@ -14,7 +14,7 @@ const createBlogPost = (post) => {
     time.setAttribute("datetime", post.computedDate);
     const content = document.createElement("div");
     content.innerHTML = post.content;
-    content.classList.add(".content");
+    content.classList.add("content");
     head.append(heading, time);
     article.append(head, content);
     return article;
