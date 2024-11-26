@@ -66,7 +66,7 @@ time {
     gap: 5px;
     position: absolute;
     left: 80px;
-    top: 15px;
+    top: 25px;
 }
 
 .intro h1 {
@@ -118,12 +118,8 @@ article p {
         left: 20%;
     }
 
-    .intro h1 {
-        font-size: 20px;
-    }
-
     .intro p {
-        font-size: 15px;
+        display: none;
     }
 }
 
