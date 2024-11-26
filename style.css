@@ -108,22 +108,21 @@ article p {
     header,
     main {
         width: 90%;
-
-    }
-
-    .banner img {
-        width: 500px;
     }
 
 }
 
 @media screen and (max-width: 600px) {
-    .banner img {
-        width: 90%;
+    .banner .intro {
+        left: 15%;
     }
 
-    .banner .intro {
-        right: 10%;
+    .intro h1 {
+        font-size: 20px;
+    }
+
+    .intro p {
+        font-size: 15px;
     }
 }
 
